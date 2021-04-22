@@ -1,0 +1,30 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python"
+  ],
+
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  //Other config
+  "snippets.ultisnips.directories": [
+    "~/.config/nvim/utils/snips",
+    "UltiSnips",
+    "dsznajder/vscode-es7-javascript-react-snippets"
+  ],
+  "tsserver.enable": true,
+
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "snippets.extends": {
+    "javascriptreact": ["javascript"]
+  }
+}
